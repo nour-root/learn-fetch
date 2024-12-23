@@ -1,7 +1,7 @@
-const handlData = (user) => {
+const handleData = (user) => {
   return `<div
         id="${user.id}"
-        class="bg-gray-200 py-4 px-3 w-fit h-fit flex flex-col items-center gap-4 rounded-lg"
+        class="bg-gray-200 py-4 px-3 w-fit flex flex-col items-center gap-4 rounded-lg h-full"
       >
         <div class="image p-2 border-4 border-solid border-black rounded-full">
           <svg
@@ -30,4 +30,4 @@ const handlData = (user) => {
         </div>
       </div>`;
 };
-export default handlData;
+export default handleData;
